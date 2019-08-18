@@ -1,3 +1,5 @@
+'use strict'
+
 function vowelsAndConsonants(s) {
   let consonants = [];
   let vowels = ["a", "e", "i", "o", "u"];
@@ -9,6 +11,6 @@ function vowelsAndConsonants(s) {
   consonants.forEach(letter => console.log(letter));
 }
 
-let testString = "asdfasfasdfasdfdaaaaa";
+let stringToTest = "asdfasfasdfasdfdaaaaa";
 
-vowelsAndConsonants(testString);
+vowelsAndConsonants(stringToTest);
