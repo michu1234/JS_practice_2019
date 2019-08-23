@@ -1,4 +1,4 @@
-let initialTime = "07:05:45PM";
+let initialTime = "12:00:00AM";
 // change time format to 24h
 
 function changeTimeFormat(time) {
@@ -13,3 +13,5 @@ function changeTimeFormat(time) {
 }
 
 changeTimeFormat(initialTime);
+
+// obsuz pozostale przypadki
