@@ -9,9 +9,10 @@ function changeTimeFormat(time) {
   if (isPM) {
     let twoDigitHour = Number(hour) + 12; /*?*/
     return `${twoDigitHour}:${time.slice(3, 8)}`; /*?*/
+  } else {
+    return time.substring(0, str.length - 2)
   }
 }
 
 changeTimeFormat(initialTime);
 
-// obsuz pozostale przypadki
